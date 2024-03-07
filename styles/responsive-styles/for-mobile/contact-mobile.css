@@ -1,0 +1,104 @@
+@media only screen and (max-width:767px){
+    #hanburger_icon, #close_icon{
+        position: absolute;
+        z-index: 100;
+        color: white;
+        font-size: 5vw;
+        top: 2vw;
+        right: 0;
+    }
+    header .section{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .active-slidebar-icon{
+        display: block;
+    }
+    .passive-slidebar-icon{
+        display: none;
+    }
+    
+    .navbar-close{
+        transform: translateX(110vw);
+    }
+    .navbar-open{
+        transform: translateX(0vw);
+    }
+    .opened{
+        background-color: #486873;
+        height: 100vh;
+    }
+    .goUp{
+        font-size: 5vw;
+        height: 15vw;
+        width: 15vw;
+    }
+    nav{
+        flex-direction: column;
+        gap: 5vw;
+        position: absolute;
+        z-index: 99;
+        padding: 8vw 0vw 0vw 15vw;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        width: 102vw;
+        transition: transform 0.1s ease-in-out;
+    }
+    nav .active-element{
+        font-size: 5vw;
+    }
+    nav .passive-element{
+        font-size: 3vw;
+    }
+    #contact-top{
+        font-size: 5vw;
+    }
+    .links-of-contacts{
+        flex-direction: column;
+        gap: 4vw;
+    }
+    .adress-and-mobile-phone-numbers{
+        width: 100%;
+        height: 94vw;
+    }
+    .info{
+        height: 29vw;
+        font-size: 4vw;
+    }
+    .links-of-social-platform{
+        height: 40vw;
+        width: 100%;
+    }
+    .social-media-icon{
+        width: 7vw;
+        height: 7vw;
+    }
+    .footer-info{
+        flex-direction: column-reverse;
+        gap: 2vw;
+        width: 56%;
+    }
+    .footer-info h3{
+        width: 90%;
+        color: white;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    .social-media-contacts i {
+        font-size: 4vw;
+    }
+    .social-media-icon{
+        width: 6vw;
+        height: 6vw;
+    }
+    .social-media-contacts{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-contact-homepage img{
+        width: 25vw;
+        height: 25vw;
+    }
+}

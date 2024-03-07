@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jepezo Radio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" href="./images/fm-logo.png" type="image/icon type">
+    <link rel="stylesheet" href="./styles/home-style.css">
+    <link rel="stylesheet" href="./styles/responsive-styles/for-tablet/homepage-tablet.css">
+    <link rel="stylesheet" href="./styles/responsive-styles/for-mobile/homepage-mobile.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="section">
+                <i id="hanburger_icon" class="fa-solid fa-bars active-slidebar-icon"></i>
+                <i id="close_icon" class="fa-solid fa-xmark passive-slidebar-icon"></i>
+                <nav id="nav" class="navbar-close">
+                    <a class="nav-elements active-element" href="index.html">Əsas səhifə</a>
+                    <a class="nav-elements passive-element" href="projects.html">Proyektlər</a>
+                    <a class="nav-elements passive-element" href="stock.html">Stok</a>
+                    <a class="nav-elements passive-element" href="contact.html">Kontaktlar</a>
+                </nav>
+                <div class="logo">
+                    <img src="./images/fm-logo.png" alt="fm-logo" srcset="">
+                </div>
+                <div class="music">
+                    <div class="play-image-text">
+                        <i class="fa fa-play"></i>
+                        <img src="./images/music-image.png" alt="music-image">
+                        <h3 id="music-name">Alex G feat. Emily Yacina Treehouse</h3>
+                    </div>
+                    <div class="volume">
+                        <i id="volume-icon" class="fa-solid fa-volume-low"></i>
+                        <img src="./images/medium-volume.png" id="medium-volume" alt="" srcset="">
+                        <input style="cursor: pointer;" type="range" id="volume-range" min="0" max="100" step="1"
+                            value="50">
+                        <span class="noselect" id="thumb"></span>
+                    </div>
+                </div>
+                <a href="#header" class="goUp" id="goUpButton">
+                    <i class='fas fa-angle-double-up'></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main style="position: relative;">
+        <div class="row">
+            <div class="container">
+                <div class="section">
+                    <h3>Yayımlar</h3>
+                            <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <video poster="./images/left-video.png">
+                                    <source src="" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="swiper-slide">
+                                <video poster="./images/middle-video.png">
+                                    <source src="" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="swiper-slide">
+                                <video poster="./images/right-video.png">
+                                    <source src="" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="swiper-slide">
+                                <video poster="./images/left-video.png">
+                                    <source src="" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="swiper-slide">
+                                <video poster="./images/middle-video.png">
+                                    <source src="" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="swiper-slide">
+                                <video poster="./images/right-video.png">
+                                    <source src="" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- <h3>Broadcast “Guest from the People” with a local musician!</h3> -->
+                    </div>
+                    <div class="section2-contents">
+                        <div class="content">
+                            <div class="top-content">
+                                <img src="./images/qulaqciq-phone-sekil.png" alt="">
+                                <h3 class="section2-right-top-text">
+                                    Sevimli radio stansiyalarınızı bir proqramda onlayn dinləyin, sevimli radiolarınızı əlfəcin kimi qeyd edin və hər zövqə uyğun musiqidən həzz alın. Yüksək səs keyfiyyəti, istifadəçi dostu interfeys, artıq heç nə yoxdur - bütün bunlar tamamilə pulsuzdur.
+                                </h3>
+                            </div>
+                            <h3 class="section2-bottom-text">
+                                Tətbiq bölgənizdəki federal radio stansiyaları və radio stansiyalarını təqdim edir. Geniş kataloqdan radio seçin. Sevimli stansiyalarınızı sevimlilərinizə əlavə edin. Xüsusi nişanda son dinlənmiş radio stansiyalarına qayıdın. ,<br>  <br>
+Fəaliyyətinizdən yayınmayın: fonda sevdiyiniz musiqiyə qulaq asın.
+                            </h3>
+                        </div>
+                        <div class="content">
+                            <div class="top-content">
+                                <img src="./images/section2-content2-sekil.png" alt="">
+                            <h3 class="section2-right-top-text">
+                                “Radio” Jelezo FM” gənclər və pozitivlik komandasının “16±” (16 plus minus) layihəsini təqdim edir. Jeleznoqorskun gənc nəsli necə yaşayır, hansı musiqiyə qulaq asırlar və gələcək üçün hansı planlar qururlar?
+                            </h3>
+                            </div>
+                            <h3 class="section2-bottom-text">
+                                Bu barədə "Jelezo FM" radiosu və "Jurnalistlərin Uşaq və Gənclər Klubu"nun birgə layihəsi olan "16±" radio şousunda öyrənəcəksiniz. Veriliş hər şənbə saat 18:00-da yayımlanır. Vaxt: 5 dəqiqə.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="section">
+                    <h3>Aparıcı radio stansiyaları</h3>
+                    <div class="womans">
+                        <div class="woman">
+                            <img src="./images/homepage-woman1.png" alt="">
+                            <h3>Olga Podyacheva</h3>
+                        </div>
+                        <div class="woman">
+                            <img src="./images/homepage-woman2.png" alt="">
+                            <h3>Olga Yan</h3>
+                        </div>
+                        <div class="woman">
+                            <img src="./images/homepage-woman3.png" alt="">
+                            <h3>Natalia Istomina</h3>
+                        </div>
+                        <div class="woman">
+                            <img src="./images/homepage-woman4.png" alt="">
+                            <h3>Olga Larina</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="section">
+                <div class="partners">
+                    <h3>Tərəfdaşlar</h3>
+                    <div class="partner-logos">
+                        <div class="signal-satalite">
+                            <img src="./images/partner1.png" alt="">
+                            <img src="./images/partner2.png" alt="">
+                        </div>
+                        <img src="./images/partner3.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-contact-homepage">
+                    <img src="./images/footer-logo.png" alt="">
+                    <div class="footer-info">
+                        <div class="social-media-contacts">
+                            <div class="social-media-icon">
+                                <i class='fab fa-telegram-plane'></i>
+                            </div>
+                            <div class="social-media-icon">
+                                <i class='fab fa-instagram'></i>
+                            </div>
+                            <div class="social-media-icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="social-media-icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="social-media-icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                        <h3>Radio "ZhelezoFM" 99.0 MHz</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="slide-bar.js"></script>
+    <script src="swiper.js"></script>
+    <script src="goUpButton.js"></script>
+</body>
+</html>

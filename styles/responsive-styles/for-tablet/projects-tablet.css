@@ -1,0 +1,30 @@
+@media only screen and (min-width:768px) and (max-width:1082px){
+    header{
+        height: 52vw;
+    }
+    .box{
+        padding-left: 1vw;
+    }
+    .boxes-right{
+        gap: 4vw;
+    }
+    .boxes-right .box:nth-child(1){
+        height: 45%;
+    }
+    .boxes-right .box:nth-child(2){
+        height: 45%;
+    }
+    ul.box-queue{
+        padding-left: 2.4vw;
+    }
+    .colum{
+        width: 32%;
+    }
+    .oclock{
+        height: 12vw;
+        width: 27vw;
+    }
+    .day{
+        height: 20vw;
+    }
+}

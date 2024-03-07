@@ -1,0 +1,156 @@
+@media only screen and (max-width:767px){
+    .opened{
+        height: 100vh;
+    }
+    header{
+        height: 45vh;
+    }
+    #hanburger_icon, #close_icon{
+        position: absolute;
+        z-index: 100;
+        color: white;
+        font-size: 5vw;
+        top: 2vw;
+        right: 0;
+    }
+
+    .active-slidebar-icon{
+        display: block;
+    }
+    .passive-slidebar-icon{
+        display: none;
+    }
+
+    .navbar-close{
+        transform: translateX(110vw);
+    }
+    .navbar-open{
+        transform: translateX(6vw);
+    }
+    nav{
+        background-color: #486873;
+        flex-direction: column;
+        gap: 5vw;
+        position: absolute;
+        z-index: 99;
+        padding: 8vw;
+        height: 100%;
+        top: 0;
+        right: 0;
+        width: 102vw;
+        transition: transform 0.1s ease-in-out;
+    }
+    .goUp{
+        font-size: 5vw;
+        height: 15vw;
+        width: 15vw;
+    }
+    nav .active-element{
+        font-size: 5vw;
+    }
+    nav .passive-element{
+        font-size: 3vw;
+    }
+
+    .logo{
+        margin-left: 6vw;
+    }
+
+    .music i {
+        font-size: 3vw;
+    }
+    .section2-contents{
+        flex-direction: column;
+    }
+    .content{
+        height: 60vw;
+        width: 100%;
+    }
+
+    .row:nth-child(1) h3 {
+        font-size: 5vw;
+    }
+
+    .row:nth-child(2) h3 {
+        font-size: 5vw;
+    }
+    .row:nth-child(1) .content h3 {
+        width: 50%;
+        font-size: 2.5vw;
+        font-weight: 400;
+    }
+    .row:nth-child(1) .content .section2-bottom-text{
+        width: 97%;
+    }
+    .content img {
+        width: 45%;
+        height: 35vw;
+    }
+
+    .row:nth-child(1) .section2-contents{
+        gap: 3vw;
+    }
+
+    .womans{
+        flex-direction: column;
+        align-items: baseline;
+        gap: 2vw;
+    }
+    .woman{
+        gap: 2vw;
+    }
+    .woman h3{
+        font-size: 5vw;
+    }
+    .woman img {       
+        height: 30vw;
+        width: 30vw;
+    }
+    .partners h3{
+        font-size: 5vw;
+    }
+    .partner-logos {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .signal-satalite{
+        width: 100%;
+        gap: 3vw;
+    }
+
+    .signal-satalite img{
+        width: 45%;
+        height: 25vw;
+    }
+
+    .partner-logos img {
+        width: 100%;
+        height: 25vw;
+    }
+    .footer-info{
+        flex-direction: column-reverse;
+        gap: 2vw;
+    }
+    .footer-info h3{
+        width: 90%;
+        color: white;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    .social-media-contacts i {
+        font-size: 4vw;
+    }
+    .social-media-icon{
+        width: 6vw;
+        height: 6vw;
+    }
+    .social-media-contacts{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-contact-homepage img{
+        width: 25vw;
+        height: 25vw;
+    }
+}

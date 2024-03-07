@@ -1,0 +1,119 @@
+@media only screen and (max-width:767px){
+    #hanburger_icon, #close_icon{
+        position: absolute;
+        z-index: 100;
+        color: white;
+        font-size: 5vw;
+        top: 2vw;
+        right: 0;
+    }
+    .active-slidebar-icon{
+        display: block;
+    }
+    .passive-slidebar-icon{
+        display: none;
+    }
+    .opened{
+        height: 100vh;
+    }
+    .goUp{
+        font-size: 5vw;
+        height: 15vw;
+        width: 15vw;
+    }
+
+    .navbar-close{
+        transform: translateX(110vw);
+    }
+    .navbar-open{
+        transform: translateX(6vw);
+    }
+    nav{
+        background-color: #486873;
+        flex-direction: column;
+        gap: 5vw;
+        position: absolute;
+        z-index: 99;
+        padding: 8vw;
+        height: 100%;
+        top: 0;
+        right: 0;
+        width: 102vw;
+        transition: transform 0.1s ease-in-out;
+    }
+    nav .active-element{
+        font-size: 5vw;
+    }
+    nav .passive-element{
+        font-size: 3vw;
+    }
+    .header-content-boxes, .boxes-right{
+        flex-direction: column;
+        gap: 2vw;
+    }
+    .box, .boxes-right{
+        width: 100%;
+    }
+    .box{
+        padding: 1vw 0vw 1vw 7vw;
+    }
+    #top-of-header-content{
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    .section h3{
+        color: white;
+        font-weight: 500;
+        font-size: 5vw;
+        text-align: center;
+    }
+    .day h3{
+        font-size: 3.5vw;
+    }
+    .colum{
+        flex-direction: row;
+        width: 100%;
+    }
+    .days-of-week{
+        flex-direction: column;
+        gap: 2vw;
+    }
+    .day{
+        height: 30vw;
+    }
+    .oclock{
+        height: 60%;
+        font-size: 3vw;
+    }
+    .information-for-broadcast{
+        font-size: 3vw;
+    }
+    .information-for-broadcast{
+        padding: 2vw;
+    }
+    .footer-info{
+        flex-direction: column-reverse;
+        gap: 2vw;
+    }
+    .footer-info h3{
+        width: 90%;
+        color: white;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    .social-media-contacts i {
+        font-size: 4vw;
+    }
+    .social-media-icon{
+        width: 6vw;
+        height: 6vw;
+    }
+    .social-media-contacts{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-contact-homepage img{
+        width: 25vw;
+        height: 25vw;
+    }
+}
